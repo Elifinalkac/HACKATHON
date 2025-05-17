@@ -1,8 +1,8 @@
-use soroban_sdk::{contract, contractimpl, Address, Env, String, Symbol};
+use soroban_sdk::{contract, contractimpl, Address, Env, String, Symbol, symbol_short}; // symbol_short makrosunu import et
 use soroban_token_sdk::{TokenUtils, metadata::TokenMetadata};
 
-const ADMIN_KEY: Symbol = Symbol::short("admin");
-const META_KEY: Symbol = Symbol::short("meta");
+const ADMIN_KEY: Symbol = symbol_short!("admin");
+const META_KEY: Symbol = symbol_short!("meta");
 
 #[contract]
 pub struct Token;
