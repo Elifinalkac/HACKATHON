@@ -18,13 +18,7 @@ Kullanıcılar Freighter cüzdanlarını bağlayarak token bakiyelerini görünt
 - Token gönderme (transfer) arayüzü
 - Modern, mobil uyumlu ve kullanıcı dostu arayüz
 
-## 💻 Kurulum
 
-### Backend (Soroban Contract)
-```bash
-cd HACKATHON-main
-soroban config identity token-admin --global
-soroban build
 
 
 
